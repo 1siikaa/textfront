@@ -6,7 +6,7 @@ function MyForm() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const response = await fetch('https://backand-m7r5ms235-1siikaa.vercel.app/text', {
+    const response = await fetch('https://backand-lkzh9k9on-1siikaa.vercel.app/text', {
       method: 'POST',
       body: JSON.stringify({ text }),
       headers: { 'Content-Type': 'application/json' },
